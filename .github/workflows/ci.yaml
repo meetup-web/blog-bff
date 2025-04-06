@@ -85,4 +85,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/posts-bff:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/blog-bff:latest

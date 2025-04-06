@@ -26,4 +26,4 @@ dependencies = [
 ]
 
 [project.scripts]
-posts_bff = "posts_bff.bootstrap.entrypoints.cli:main"
+blog_bff = "blog_bff.bootstrap.entrypoints.cli:main"
