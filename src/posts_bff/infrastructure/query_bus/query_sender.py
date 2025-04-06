@@ -20,4 +20,4 @@ class QuerySender(Sender):
 
         handler = await self._resolver.resolve(handler_type)
 
-        return cast(TRes, await handler.handle(query))
+        return cast("TRes", await handler.handle(query))
